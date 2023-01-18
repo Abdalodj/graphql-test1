@@ -1,0 +1,12 @@
+{
+  "name": "graph-test1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Abdalodj/graphql-test1.git",
+  "author": "Abdalodj",
+  "license": "MIT",
+  "scripts": {
+    "dev": "graphpack",
+    "build": "graphpack build"
+   }
+}

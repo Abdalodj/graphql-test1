@@ -1,0 +1,26 @@
+# Custom type
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  age: Int
+}
+
+# Type
+
+type Query {
+  # id: ID
+  hello: String
+  age: Int
+  users: [User!]!
+  # money: Float
+  # isMaried: Boolean
+  user(id: ID!): User!
+  
+}
+
+# Mutation
+type Mutation {
+  createUser(id: ID!, name: String!, email: String!, age: Int): User!
+  deleteUser(id: ID!): Boolean
+}
